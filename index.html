@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <title>Guess My Number!</title>
+    <title>Guess The Number!</title>
   </head>
   <body>
     <header>
@@ -15,6 +15,19 @@
       <div class="number">?</div>
     </header>
     <main>
+      <section class="how-to-play">
+        <h2 style="margin-left: 20px;">How to Play</h2>
+        <ul style="list-style-type: circle; margin-left: 20px;">
+          <li>Welcome to Guess My Number! Try to guess the correct number between 1 and 20.</li>
+          <li>Enter your guess in the input field and click the "Check!" button to see if you're correct.</li>
+          <li>You start with a score of 20, and each incorrect guess will decrease your score.</li>
+          <li>The game will provide feedback on whether your guess is too high or too low.</li>
+          <li>If you guess the correct number, you win the game!</li>
+          <li>Your highscore will be updated if you beat your previous best.</li>
+          <li>Click the "Again!" button to start a new game and reset the score.</li>
+          <li>Feel free to challenge yourself and see how quickly you can guess the correct number with the highest score possible.</li>
+        </ul>
+      </section>
       <section class="left">
         <input type="number" class="guess" />
         <button class="btn check">Check!</button>
@@ -27,8 +40,6 @@
         </p>
       </section>
     </main>
-    <div><p class="Dev">Created by Ashmith Maddala</p>
-    <a href="https://www.linkedin.com/in/ashmith-maddala/">LinkedIN</a></div>
     <script src="script.js"></script>
   </body>
 </html>
