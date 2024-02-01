@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
 
+
 * {
   margin: 0;
   padding: 0;
@@ -7,15 +8,14 @@
 }
 
 html {
-  font-size: 100%;
+  font-size: 85%;
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Single Day', cursive;
-  /* font-size: 150px; */
   color: #eee;
-  background-color: #223;
+  background-color: #222;
   /* background-color: #60b347; */
 }
 
@@ -94,6 +94,8 @@ h1 {
   text-align: center;
   display: block;
   margin-bottom: 3rem;
+  margin-left: 10%;
+  
 }
 
 .btn {
@@ -118,10 +120,7 @@ h1 {
 .label-score {
   margin-bottom: 2rem;
 }
-.dev{
-  font-size: 80px;
- 
-}
-a{
-  color: antiquewhite;
+
+.check{
+  margin-left: 10%;
 }
